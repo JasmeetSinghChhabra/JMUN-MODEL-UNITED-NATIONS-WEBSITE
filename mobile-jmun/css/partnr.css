@@ -1,0 +1,24 @@
+#expand{
+width:311px;
+height:108px;
+position:absolute;
+overflow:hidden;
+transition:height 1s;
+border:2px solid grey;
+}
+#expand:hover{
+height:138px;
+border:2px solid rgb(100,250,100);
+z-index:100;
+}
+#logo{
+background:black;
+width:311px;
+height:108px;
+}
+#below{
+padding-top:4px;
+background:rgb(210,210,250);
+height:30px;
+width:311px;
+}

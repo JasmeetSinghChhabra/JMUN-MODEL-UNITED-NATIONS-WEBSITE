@@ -1,0 +1,145 @@
+@font-face {
+	font-family:f;
+	src:url(Haymaker.woff);
+}
+@font-face {
+	font-family:f2;
+	src:url(GearedSlab.woff);
+}
+*{
+	padding:0px;margin: 0px;
+}
+body, html{
+	position: absolute;top: 0px;width: 100%;height: 100%;overflow-x:hidden;bottom: 0px;left: 0px;
+}
+.bg{
+	background-image: url(pattern.png);
+	background-repeat: repeat;
+	position: fixed;width: 100%;height: 100%;top: 0px;left: 0px;opacity: 0.5;z-index:-1;bottom:0px;
+}
+.form-control{
+	margin-bottom: 10px;
+}
+.sponsorimage{
+	text-align: center;
+	height: 100px;
+}
+.cheading{
+	/*width: 100%;*/
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-family: Roboto;
+	/*font-weight: bold;*/
+}
+.heading{
+	width: 100%;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 25px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-family: Roboto;
+	font-weight: bold;
+	padding: 10px 0px;
+}
+.indsponsor{
+	text-align: center;
+	display: inline-block;
+	width: 24%;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	margin-bottom: 20px;
+}
+.sponsorname{
+	width: 100%;
+	text-transform: capitalize;
+	font-family: Roboto;
+	text-align: center;
+	font-size: 18px;
+	/*letter-spacing: .8px;*/
+}
+.cgs{
+	font-family: Roboto;
+	font-size: 12px;
+	width: 100%;
+	text-align: center;
+	opacity: .7;
+	font-weight: bold;
+}
+.cgs table{
+	width: 40%;
+	text-align: center;
+	position: relative;
+	left: 30%;
+}
+.mainheading{
+	margin-top: 35px;
+	font-size: 35px;
+	width: 100%;
+	text-align: center;
+	text-transform: uppercase;
+	font-family:f2;
+	letter-spacing: 2px;
+}
+.titlesponsor{
+	position: relative;
+}
+.cosponsor{
+	position: relative;
+}
+.icon{
+	position: absolute;
+	width: 40px;
+	height:40px;
+	top: 10px;
+}
+.iconimage{
+	width: 40px;
+}
+.left{
+	right: 60px;
+}
+.left img{
+	width: 50px;
+}
+.right{
+	right: 110px;
+}
+.eachcosponsor{
+	display: inline-block;
+	width: 25%;
+	text-align: center;
+}
+.cosponsorwrapper{
+	width: 80%;
+	position: relative;
+	left: 20%;
+}
+.eachcosponsorimg{
+	height:200px;
+	margin-top: -50px;
+}
+.title{
+	width: 30%;
+	margin-left: -15%;
+	left: 50%;
+	position: relative;
+	margin-bottom: 20px;
+}
+.cgdetails{
+	text-transform: uppercase;
+	position: absolute;
+	top: 10px;
+	font-family: f2;
+	font-size:20px;
+	width: 380px;
+	text-align: center;
+}
+.allwrappers{
+	width: 90%;
+	left: 5%;
+	text-align: center;
+	position: relative;
+}

@@ -1,0 +1,14 @@
+.pt-page {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+#viewport, #box, .slide {
+	width: 100%;
+	height: 100%;
+	margin:0;
+}
+
+#viewport{overflow:hidden;}
+ 

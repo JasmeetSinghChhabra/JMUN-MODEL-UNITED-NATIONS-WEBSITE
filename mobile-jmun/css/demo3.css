@@ -1,0 +1,60 @@
+aside {
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+skysky {
+	overflow: hidden;
+	padding: 40px;
+	background-attachment: fixed;
+	background-position: 50% 0;
+	background-size: cover;
+	-webkit-text-size-adjust: none;
+}
+div.skysky a {
+	text-decoration: underline;
+}
+div.skysky a:hover {
+	text-decoration: none;
+}
+.bg-red {
+	background-image: url(../img/bg-red.jpg);
+}
+.bg-orange {
+	background-image: url(../img/bg-orange.html);
+}
+.bg-yellow {
+	background-image: url(../img/bg-yellow.html);
+}
+.bg-green {
+	background-image: url(../img/bg-green.html);
+}
+.bg-cyan {
+	background-image: url(../img/bg-cyan.html);
+}
+.bg-blue {
+	background-image: url(../img/bg-blue.html);
+}
+.bg-purple {
+	background-image: url(../img/bg-purple.html);
+}
+.bg-pink {
+	background-image: url(../img/bg-pink.html);
+}
+.bg-black {
+	background-image: url(../img/bg-black.html);
+}
+.skysky {
+	max-width: 1120px;
+	margin: 0 auto;
+}
+@media screen and (max-width: 1000px) {
+	skysky {
+		padding: 20px;
+	}
+}
+@media screen and (max-width: 767px) {
+	skysky {
+		padding: 10px;
+	}
+}

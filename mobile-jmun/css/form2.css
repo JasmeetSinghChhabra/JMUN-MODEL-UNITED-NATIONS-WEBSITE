@@ -1,0 +1,132 @@
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url(http://themes.googleusercontent.com/static/fonts/opensans/v6/cJZKeOuBrn4kERxqtaUH3T8E0i7KZn-EPnyo3HZu7kw.woff) format('woff');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Open Sans Semibold'), local('OpenSans-Semibold'), url(http://themes.googleusercontent.com/static/fonts/opensans/v6/MTP_ySUJH_bn48VBG8sNSnhCUOGz7vYGh680lGh-uXM.woff) format('woff');
+}
+
+body{
+background-color:white;
+}
+label{
+top:20px;
+position:relative;
+}
+.for_form td {
+padding-right:10px;
+}
+.for_form td  label{
+position:relative;
+top:-12px;
+}
+ul{
+	padding: 0;
+    list-style-type: none;
+}
+input:not(.radio):not(#submit):not([name$="c_pref"]){
+border:0; 
+padding:10px; 
+border: 1px solid #ccc;
+font-size:10pt; 
+font-family:Arial, sans-serif; 
+color:#aaa; 
+width: 70%;
+-webkit-border-radius: 5px; 
+-moz-border-radius: 5px; 
+border-radius: 5px;
+-moz-box-shadow: inset 0 0 4px rgba(0,0,0,0.2); 
+-webkit-box-shadow: inset 0 0 4px rgba(0, 0, 0, 0.2); 
+box-shadow: inner 0 0 4px rgba(0, 0, 0, 0.2);
+height:12px;
+}
+
+table tr td input{
+font-size:10pt;
+}
+
+textarea{
+border:0; 
+padding:10px; 
+font-size:15pt; 
+font-family:Arial, sans-serif; 
+color:#aaa; 
+border:solid 1px #ccc; 
+-webkit-border-radius: 5px; 
+-moz-border-radius: 5px; 
+border-radius: 5px;
+-moz-box-shadow: inset 0 0 4px rgba(0,0,0,0.2); 
+-webkit-box-shadow: inset 0 0 4px rgba(0, 0, 0, 0.2); 
+box-shadow: inner 0 0 4px rgba(0, 0, 0, 0.2);
+}
+
+select{
+border:0; 
+padding:5px; 
+font-size:13pt; 
+font-family:Arial, sans-serif; 
+color:#aaa; 
+border:solid 1px #ccc; 
+-webkit-border-radius: 5px; 
+-moz-border-radius: 5px; 
+border-radius: 5px;
+-moz-box-shadow: inset 0 0 4px rgba(0,0,0,0.2); 
+-webkit-box-shadow: inset 0 0 4px rgba(0, 0, 0, 0.2); 
+box-shadow: inner 0 0 4px rgba(0, 0, 0, 0.2);
+
+}
+/*
+h1,h3{
+font-family: arial,COURIER;
+}
+
+h1 {
+font-size: 31pt;
+color:#00A0A0;
+}
+
+h3{
+margin-top:-25px;
+color:#74AFAD;
+}
+
+label,li{
+font-size:20pt;
+font-weight:400;
+color:#C05000;
+font-family:'Open Sans',sans-serif;
+}
+*/
+table{
+border-collapse:separate; 
+border-spacing:10px;
+margin-left:-10px;
+}
+
+form{
+
+}
+
+span{
+font-size:11pt;
+}
+
+#submit{
+-moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5), 0px 1px 2px rgba(0, 0, 0, 0.2); 
+-webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5), 0px 1px 2px rgba(0, 0, 0, 0.2); 
+box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.5), 0px 1px 2px rgba(0, 0, 0, 0.2);
+-webkit-border-radius: 5px; 
+-moz-border-radius: 5px; 
+border-radius: 5px;
+width:150px;
+height:50px;
+font-size: 17pt;
+font-weight: 400;
+color: #333333;
+font-family: sans-serif,'Open Sans';
+}

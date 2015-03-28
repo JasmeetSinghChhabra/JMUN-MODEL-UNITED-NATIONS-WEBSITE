@@ -1,0 +1,139 @@
+@media only screen 
+and (max-width : 1200px) {
+#contact_write_up span{
+font-size:1.8vw;
+overflow:scroll;
+}
+
+.pt-page-2 ul li span{
+font-size:1.8vw;
+}
+
+}
+a{
+color:#08c;
+text-decoration:none;
+}
+a:hover{text-decoration:underline;}
+.pt-page-2 {
+	margin: 0;
+	background-image: url('../images/bg3.jpg');
+	background-color: black;
+
+	-webkit-background-size: 100%;
+	-moz-background-size: 100%;
+	background-size: 100%;
+}
+.contact_div {
+	background-color: rgba(255,255,255,0.8); /*#F5F5F5;	*/
+font-family: Georgia,Verdana, Arial, sans-serif;
+	font-weight: 600;
+}
+
+.contact_div:hover {
+	background-color: rgba(255,255,255,0.85); /*#F5F5F5;*/
+}
+
+#contact_write_up {
+	position: relative;
+	top: 10%;
+	left: 15%;
+	border-radius: 50px;
+	padding: 40px;
+	padding-left: 55px;
+	height: 35%; /*230px;*/
+	width: 70%;
+	overflow: visible;
+	color: black;
+	font-size: 13pt;
+	line-height: 150%;
+
+	-webkit-box-shadow: 0px 0px 25px #fff;
+	box-shadow: 0px 0px 25px #fff;
+}
+
+#contact_write_up img {
+	position: absolute;
+	margin-left: -75;
+	margin-top: -80;
+}
+
+#contact_write_up span {
+	display: block;
+	height: 100%;
+	overflow: hidden;
+}
+
+.pt-page-2 ul {
+	position: relative;
+	display: inline-block;
+	list-style: none;
+	left: 7%;
+	top: 30px;
+	font-family: Georgia,Verdana, Arial, sans-serif;
+	font-weight: 600;
+	font-size: 15pt;
+	width: 88%;
+}
+
+.pt-page-2 li {
+	display: inline-block;
+	width: 29%;
+	margin-right: 3%;
+	margin-top: 5%;
+	height: 67px;
+	border-radius: 50px;
+	background-color: rgba(255,255,255,0.8);
+	padding-left: 82px;
+	padding-top: 35px;
+
+	-webkit-box-shadow: 0px 0px 20px #fff;
+	box-shadow: 0px 0px 20px #fff;
+	background-image: url('../images/phone.png');
+
+	-webkit-background-size: 77px 62px;
+	-moz-background-size: 77px 62px;
+	background-size: 77px 62px;
+	background-repeat: no-repeat;
+	overflow: hidden;
+}
+
+.pt-page-2 li:hover {
+	background-color: rgba(255,255,255,0.9);
+}
+
+.pt-page-2 li span {
+	display: block;
+	height: 18%;
+	width: inherit;
+	overflow: hidden;
+	position: absolute;
+	margin-top: -2.6%;
+	margin-left: -1%;
+	font-size: 10pt;
+	text-transform: uppercase;
+}
+
+#email_icon {
+	background-image: url('../images/email_icon.png');
+
+	-webkit-background-size: 70px;
+	-moz-background-size: 70px;
+	background-size: 70px;
+	background-repeat: no-repeat;
+	background-position: 5px;
+	padding-left: 70px;
+}
+
+#email_icon span {
+	margin-left: 10px;
+	font-size: 15pt;
+}
+
+#twice {
+	line-height: 18px;
+}
+
+#twice span {
+	height: 32%;
+}
